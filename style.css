@@ -17,7 +17,7 @@ body {
 
 .container {
     display: flex;
-    width: 90vw;
+    width: 100vw;
 
 }
 
@@ -26,8 +26,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-    border-radius: 50px;
-    color: white;
+    border-radius: 30px;
+    color: black;
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
@@ -53,9 +53,9 @@ body {
     transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media(max-width: 480px) {
+@media(max-width: 1080px) {
     .container {
-        width: 100vw;
+        width: 200vw;
     }
 
     .panel:nth-of-type(4),.panel:nth-of-type(5){
